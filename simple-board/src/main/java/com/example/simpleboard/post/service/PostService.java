@@ -1,4 +1,4 @@
-// PostService
+// simpleboard/post/service/PostService
 package com.example.simpleboard.post.service;
 
 import com.example.simpleboard.board.db.BoardRepository;

@@ -1,4 +1,4 @@
-// ReplyRequest
+// simpleboard/reply/model/ReplyRequest
 package com.example.simpleboard.reply.model;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;

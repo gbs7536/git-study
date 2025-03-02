@@ -1,4 +1,5 @@
-// BoardApiController
+// simpleboard/board/controller/BoardApiController
+
 package com.example.simpleboard.board.controller;
 
 import com.example.simpleboard.board.db.BoardEntity;

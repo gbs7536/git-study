@@ -1,4 +1,4 @@
-// ReplyApiController
+// simpleboard/reply/controller/ReplyApiController
 package com.example.simpleboard.reply.controller;
 
 import com.example.simpleboard.reply.db.ReplyEntity;

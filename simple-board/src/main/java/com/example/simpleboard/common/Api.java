@@ -1,3 +1,5 @@
+// simpleboard/common/Api
+
 package com.example.simpleboard.common;
 
 import lombok.*;

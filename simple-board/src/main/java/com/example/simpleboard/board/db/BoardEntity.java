@@ -1,3 +1,5 @@
+// simpleboard/board/db/BoardEntity
+
 package com.example.simpleboard.board.db;
 
 import com.example.simpleboard.post.db.PostEntity;

@@ -1,4 +1,4 @@
-// ReplyRepository
+// simpleboard/reply/db/ReplyRepository
 package com.example.simpleboard.reply.db;
 
 import org.springframework.data.jpa.repository.JpaRepository;

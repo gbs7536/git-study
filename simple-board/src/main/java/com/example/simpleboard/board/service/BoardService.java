@@ -1,4 +1,4 @@
-// BoardService
+// simpleboard/board/service/BoardService
 package com.example.simpleboard.board.service;
 
 import com.example.simpleboard.board.db.BoardEntity;

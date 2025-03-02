@@ -1,3 +1,4 @@
+// simpleboard/common/Pagination
 package com.example.simpleboard.common;
 
 import lombok.*;

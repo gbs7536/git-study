@@ -1,4 +1,4 @@
-// PostRequest
+// simpleboard/post/model/PostRequest
 package com.example.simpleboard.post.model;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;

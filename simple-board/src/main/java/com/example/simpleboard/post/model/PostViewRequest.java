@@ -1,4 +1,4 @@
-// PostViewRequest
+// simpleboard/post/model/PostViewRequest
 package com.example.simpleboard.post.model;
 
 

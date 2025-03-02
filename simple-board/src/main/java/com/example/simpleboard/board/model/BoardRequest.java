@@ -1,4 +1,4 @@
-// BoardRequest
+// simpleboard/board/model/BoardRequest
 
 package com.example.simpleboard.board.model;
 

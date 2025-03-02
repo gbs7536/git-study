@@ -1,4 +1,4 @@
-// ReplyEntity
+// simpleboard/reply/db/ReplyEntity
 package com.example.simpleboard.reply.db;
 
 import com.example.simpleboard.post.db.PostEntity;

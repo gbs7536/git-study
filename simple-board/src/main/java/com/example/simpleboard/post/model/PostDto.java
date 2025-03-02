@@ -1,3 +1,4 @@
+// simpleboard/post/model/PostDto
 package com.example.simpleboard.post.model;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;

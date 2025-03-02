@@ -1,4 +1,4 @@
-// PostApiController
+// simpleboard/post/controller/PostApiController
 package com.example.simpleboard.post.controller;
 
 import com.example.simpleboard.board.db.BoardRepository;

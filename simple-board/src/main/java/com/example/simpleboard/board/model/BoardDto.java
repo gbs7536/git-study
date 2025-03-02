@@ -1,3 +1,4 @@
+// simpleboard/board/model/BoardDto
 package com.example.simpleboard.board.model;
 
 import com.example.simpleboard.post.model.PostDto;

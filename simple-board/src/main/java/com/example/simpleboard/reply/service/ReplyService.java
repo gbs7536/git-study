@@ -1,21 +1,29 @@
 // simpleboard/reply/service/ReplyRequest
 package com.example.simpleboard.reply.service;
 
+import com.example.simpleboard.common.Api;
+import com.example.simpleboard.crud.CRUDAbstractService;
 import com.example.simpleboard.post.db.PostRepository;
 import com.example.simpleboard.reply.db.ReplyEntity;
 import com.example.simpleboard.reply.db.ReplyRepository;
+import com.example.simpleboard.reply.model.ReplyDto;
 import com.example.simpleboard.reply.model.ReplyRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.awt.print.Pageable;
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class ReplyService {
+public class ReplyService extends CRUDAbstractService<ReplyDto, ReplyEntity> {
+    @Override
+    public Api<List<ReplyDto>> list(Pageable pageable) {
+        return null;
+    }
 
-    private final ReplyRepository replyRepository;
+    /*private final ReplyRepository replyRepository;
     private final PostRepository postRepository;
 
 
@@ -44,5 +52,5 @@ public class ReplyService {
 
     public List<ReplyEntity> findAllByPostId(Long postId){
         return replyRepository.findAllByPostIdAndStatusOrderByIdDesc(postId, "REGISTERED");
-    }
+    }*/
 }
